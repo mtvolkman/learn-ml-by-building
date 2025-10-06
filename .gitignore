@@ -105,6 +105,9 @@ dist/
 !Project 1 KNN Music Recommender/data/
 !Project 1 KNN Music Recommender/data/**
 
+# Allow committing Mauna Loa CO2 data for Lecture 10
+!Lecture 10 Kernel Methods/data/archive.csv
+
 # ===== Project specific =====
 kaggle.json
 *_solution.ipynb

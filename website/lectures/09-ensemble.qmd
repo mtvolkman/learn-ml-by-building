@@ -39,4 +39,4 @@ By the end of this lecture, you will:
 
 ---
 
-**Previous**: [← Lecture 8: Modern Decision Trees](08-decision-trees.qmd) | **Next**: TBD
+**Previous**: [← Lecture 8: Modern Decision Trees](08-decision-trees.qmd) | **Next**: [Lecture 10: Kernel Methods & Gaussian Processes →](10-kernel-gp.qmd)

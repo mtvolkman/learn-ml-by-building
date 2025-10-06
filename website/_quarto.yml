@@ -71,7 +71,9 @@ website:
             href: lectures/08-decision-trees.qmd
           - text: "L9: Ensemble Methods"
             href: lectures/09-ensemble.qmd
-          - text: "L10-11: Coming Soon"
+          - text: "L10: Kernel Methods & Gaussian Processes"
+            href: lectures/10-kernel-gp.qmd
+          - text: "L11: Coming Soon"
             href: "#"
             
       - section: "Module 3: Let's Discover"
