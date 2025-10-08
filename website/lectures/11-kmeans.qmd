@@ -30,10 +30,6 @@ By the end of this lecture, you will:
 ## Datasets & Acknowledgments
 
 - **20 Newsgroups** (Ken Lang): Text documents from 20 different newsgroups used to demonstrate document clustering
-  - Source: http://qwone.com/~jason/20Newsgroups/
-  - Downloaded automatically by scikit-learn when running the notebook
-  - Subset used: 4 categories (comp.graphics, rec.sport.baseball, sci.med, talk.politics.mideast)
-- **Synthetic Datasets**: Generated using scikit-learn's `make_blobs` for visualization and pedagogical purposes
 - **Libraries**: scikit-learn (K-Means implementation, metrics), NumPy (numerical operations), Matplotlib/Seaborn (visualization)
 
 ---
