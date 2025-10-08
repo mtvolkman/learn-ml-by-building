@@ -5,19 +5,28 @@ subtitle: "Finding Groups in Unsupervised Learning"
 
 ## Overview
 
-In this lecture, we explore unsupervised learning through K-Means clustering - one of the most fundamental algorithms for discovering hidden patterns and structures in unlabeled data. Unlike supervised learning where we have labels to guide us, clustering reveals natural groupings in data without any prior knowledge. We begin with an introduction to the clustering paradigm, then dive into the K-Means algorithm's mathematical foundations, including its objective function (WCSS) and iterative optimization process. Through a from-scratch implementation, we'll understand the assignment and update steps that drive the algorithm. We'll apply K-Means to real-world applications like document clustering with TF-IDF, customer segmentation, and image compression. You'll learn to evaluate clustering quality using metrics like silhouette score, Davies-Bouldin index, and Calinski-Harabasz score, and master techniques for choosing the optimal number of clusters K through the elbow method, silhouette analysis, and gap statistics. Finally, we'll explore K-Means variants including MiniBatch K-Means for large-scale data and K-Means++ initialization for improved convergence.
+In this lecture, we explore K-Means clustering - one of the most fundamental unsupervised learning algorithms for discovering hidden patterns and structures in unlabeled data. Unlike supervised learning where labels guide us, clustering reveals natural groupings purely from data patterns.
+
+- K-Means algorithm: mathematical foundations, objective function (WCSS), and iterative optimization
+- From-scratch implementation: understanding the assignment and update steps
+- Real-world application: document clustering with TF-IDF on 20 Newsgroups dataset
+- Evaluation metrics: silhouette score, Davies-Bouldin index, and Calinski-Harabasz score
+- Choosing K: elbow method and silhouette analysis
+- K-Means variants: MiniBatch K-Means for large-scale data and K-Means++ initialization
+- Understanding limitations: non-spherical clusters and the importance of knowing K
 
 ## Learning Objectives
 
 By the end of this lecture, you will:
 
 - Understand the fundamental concepts of clustering and unsupervised learning
-- Master the K-Means algorithm, including its mathematical foundations and convergence properties
-- Apply K-Means to real-world data including text documents and images
-- Evaluate clustering quality using multiple metrics (silhouette, Davies-Bouldin, Calinski-Harabasz)
-- Choose optimal parameters (K) using data-driven approaches like the elbow method
-- Recognize the strengths and limitations of K-Means (spherical clusters, sensitivity to initialization)
-- Compare K-Means with its variants (MiniBatch K-Means, K-Means++) for different scenarios
+- Master the K-Means algorithm, including its objective function (WCSS) and iterative optimization
+- Implement K-Means from scratch to understand the assignment and update steps
+- Apply K-Means to text data using TF-IDF transformation
+- Evaluate clustering quality using silhouette score, Davies-Bouldin index, and Calinski-Harabasz score
+- Choose optimal K using the elbow method and silhouette analysis
+- Use K-Means variants (MiniBatch K-Means, K-Means++) for improved performance
+- Recognize K-Means limitations (spherical clusters, fixed K) and when to use alternative methods
 
 ## Materials
 
