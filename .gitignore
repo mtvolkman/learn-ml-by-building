@@ -26,6 +26,7 @@ lecture1_overview_env/
 # Local machine-specific virtual environments
 p02-macstudio/
 venv_office_p02/
+p02-office/
 
 # Lecture 3 Linear Regression specific venv
 Lecture 3 Linear Regression/linear_regression_env/
