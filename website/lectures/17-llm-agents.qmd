@@ -1,0 +1,34 @@
+---
+title: "Lecture 17: LLM Agents & Tool Use"
+subtitle: "From prompting to acting: reasoning, tools, and multi-agent systems"
+---
+
+## Overview
+
+Large Language Models are more than chatbots—they can plan, call tools, and take actions. This lecture shows how to turn an LLM into an agent: structuring outputs, invoking external functions/APIs, and iterating with reasoning-and-action loops (ReAct). We contrast naive prompting with constrained and schema-validated approaches, calibrate model decisions via log-prob scoring, and discuss evaluation, safety, and failure modes when models act in the real world.
+
+## Learning Objectives
+
+By the end of this lecture, you will be able to:
+
+
+- **Understand LLM versatility** - Recognize that LLMs are general-purpose text processors capable of classification, extraction, reasoning, and generation tasks
+- **Implement tool use** - Build systems that enable LLMs to interact with external functions and APIs through structured tool calling
+- **Create ReAct agents** - Develop agents that combine reasoning and acting in an iterative loop to solve multi-step problems
+- **Fine-tune models** - Customize language models for specific domains through efficient fine-tuning techniques
+
+## Materials
+
+::: {.callout-tip}
+## Quick Access
+**[LLM Agents & Tool Use Notebook](https://github.com/jinming99/learn-ml-by-building/blob/main/Lecture%2017%20LLM%20Agents/17_llm_agents.ipynb)**
+:::
+
+## Resources
+
+- **Classic Blog Posts**:
+  - [A Visual Guide to LLM Agents](https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-llm-agents) — Architectures for reasoning, planning, and tool use
+  - [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/)
+---
+
+**Previous**: [← Lecture 16: Recurrent Neural Networks](16-rnn.qmd) | **Next**: [Lecture 18: Coming Soon →](#)

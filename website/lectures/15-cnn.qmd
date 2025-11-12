@@ -39,4 +39,4 @@ By the end of this lecture, you will be able to:
   
 ---
 
-**Previous**: [← Lecture 14: Understanding Transformers](14-transformers.qmd) | **Next**: [Lecture 16: Coming Soon →](#)
+**Previous**: [← Lecture 14: Understanding Transformers](14-transformers.qmd) | **Next**: [Lecture 16: Recurrent Neural Networks →](16-rnn.qmd)

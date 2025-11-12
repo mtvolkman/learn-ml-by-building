@@ -38,4 +38,4 @@ By the end of this lecture, you will be able to:
 
 ---
 
-**Previous**: [← Lecture 15: Convolutional Neural Networks](15-cnn.qmd) | **Next**: [Lecture 17: Coming Soon →](#)
+**Previous**: [← Lecture 15: Convolutional Neural Networks](15-cnn.qmd) | **Next**: [Lecture 17: LLM Agents & Tool Use →](17-llm-agents.qmd)

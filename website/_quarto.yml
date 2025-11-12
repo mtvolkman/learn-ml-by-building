@@ -95,7 +95,9 @@ website:
             href: lectures/15-cnn.qmd
           - text: "L16: Recurrent Neural Networks"
             href: lectures/16-rnn.qmd
-          - text: "L17-20: Coming Soon"
+          - text: "L17: LLM Agents & Tool Use"
+            href: lectures/17-llm-agents.qmd
+          - text: "L18-20: Coming Soon"
             href: "#"
       
       - section: "Module 5: Let's Act"
