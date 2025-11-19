@@ -1,0 +1,42 @@
+---
+title: "Lecture 18: Vision-Language Models"
+subtitle: "How AI sees, aligns, and reasons across images and text"
+---
+
+## Overview
+
+Vision-Language Models (VLMs) connect images and text in a shared embedding space so a model can "look" at a picture and understand it using language. In this lecture we use CLIP and a modern efficient VLM (SmolVLM) to see how contrastive learning aligns visual and textual representations, how attention in vision transformers highlights important regions, and how simple projection layers and instruction tuning turn these models into practical multimodal assistants. We finish with a small image analysis app that performs zero-shot classification and multi-aspect tagging.
+
+## Learning Objectives
+
+By the end of this lecture, you will be able to:
+
+- **Explain** how contrastive learning creates shared embedding spaces between vision and text
+- **Demonstrate** the dual-encoder architecture of CLIP and how it enables zero-shot transfer
+- **Analyze** attention mechanisms in vision transformers and their role in visual understanding
+- **Compare** different vision-language architectures (CLIP vs SmolVLM) and their trade-offs
+- **Implement** practical applications using vision-language models
+- **Evaluate** the impact of instruction tuning on model capabilities
+
+## Materials
+
+::: {.callout-tip}
+## Quick Access
+**[Vision-Language Models Notebook](https://github.com/jinming99/learn-ml-by-building/blob/main/Lecture%2018%20VLMs/18_vlms.ipynb)**
+:::
+
+## Resources & Acknowledgements
+
+- **Models and code used in this lecture**:
+  - CLIP: Radford et al., "Learning Transferable Visual Models From Natural Language Supervision" (2021)
+  - SmolVLM-Instruct: Hugging Face `HuggingFaceTB/SmolVLM-Instruct` vision-language model
+  - Vision Transformers: Dosovitskiy et al., "An Image is Worth 16x16 Words" (2020)
+- **Training and tuning techniques**:
+  - Visual Instruction Tuning / LLaVA: Liu et al., "Visual Instruction Tuning" (2023)
+- **Libraries and tooling**:
+  - PyTorch and TorchVision for model execution and visualization
+  - Hugging Face Transformers and AutoProcessor for loading CLIP and SmolVLM
+
+---
+
+**Previous**: [← Lecture 17: LLM Agents & Tool Use](17-llm-agents.qmd) | **Next**: [Lecture 19: Coming Soon →](#)
