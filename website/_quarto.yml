@@ -102,24 +102,19 @@ website:
           - text: "L19-20: Coming Soon"
             href: "#"
       
-      - section: "Module 5: Let's Act"
+      - section: "Module 5: Let's Act & Impact"
         contents:
-          - text: "L21-23: Coming Soon"
+          - text: "L19-20: Coming Soon"
             href: "#"
-      
-      - section: "Module 6: Let's Impact"
-        contents:
-          - text: "L24-25: Coming Soon"
-            href: "#"
-      
+
       - section: "Projects"
         contents:
           - text: "Project 1: KNN Music Recommender"
             href: projects/project1.qmd
           - text: "Project 2: Neural Archaeology"
             href: projects/project2.qmd
-          - text: "Project 3: Coming Soon"
-            href: "#"
+          - text: "Project 3: Thought Cascade"
+            href: projects/thought_cascade.qmd
 
 format:
   html:

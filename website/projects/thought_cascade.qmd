@@ -1,0 +1,68 @@
+---
+title: "Project 3: Thought Cascade"
+subtitle: "Building and Evaluating Agentic AI Systems with Small Language Models"
+---
+
+## Overview
+
+In this assignment, you will explore the transition from traditional "single-shot" prompting to **Agentic AI**. You will build a system that uses the **ReAct (Reasoning + Acting)** pattern to solve complex debugging problems by iterating, testing, and self-correcting.
+
+## Learning Objectives
+
+By completing this project, you will:
+
+- **Understand** the theoretical foundations of agentic AI and why iteration beats size
+- **Build** complete agentic systems using the ReAct pattern
+- **Measure** system performance at the component level, not just end-to-end
+- **Design** tools that enable effective agent-environment interaction
+- **Diagnose** failure modes and implement recovery strategies
+- **Apply** agentic patterns to diverse problem domains
+
+## Materials
+
+:::{.callout-tip}
+## Quick Access
+**[Project Notebook (GitHub)](https://github.com/jinming99/learn-ml-by-building/blob/main/Project%203%20Thought%20Cascade/p03_Thought_Cascade.ipynb)** — Complete implementation guide and assignment  
+**[Setup Guide](https://github.com/jinming99/learn-ml-by-building/blob/main/Project%203%20Thought%20Cascade/README.md)** — Local setup instructions
+:::
+
+:::{.callout-important collapse=false}
+## Submission Requirements
+1. **Complete all coding implementations** marked with `TODO` in the notebook.
+2. **Complete all analysis sections** explicitly labeled "Required Analysis".
+3. **Run all cells** so that key tables and plots are visible in your saved notebook.
+4. **Follow course submission instructions** for exporting your answers.
+:::
+
+## What You'll Build
+
+### Core Agentic Components
+You'll implement the building blocks of an autonomous agent:
+- **Code Execution Environment**: A safe sandbox for the agent to run and test code.
+- **ReAct Loop**: The main control loop that interleaves Reasoning, Acting, and Observing.
+- **Tool Use**: Mechanisms for the model to invoke external functions.
+
+### Evaluation Frameworks
+You'll build rigorous ways to measure performance:
+- **Pass@k Metrics**: Measuring reliability across multiple attempts.
+- **Strict Testing**: Creating adversarial test cases to catch subtle bugs.
+- **Trajectory Analysis**: Evaluating the quality of the agent's reasoning process.
+
+## Technical Stack
+
+- **Models**: Gemma-2-2b-it (Google) or SmolLM-360M (HuggingFaceTB)
+- **Frameworks**: PyTorch, Hugging Face Transformers
+- **Dataset**: QuixBugs (classic algorithmic bugs)
+- **Compute**: CPU (optimized for Apple Silicon/standard CPU) or GPU
+
+## Research Context
+
+This project connects to the forefront of AI research:
+
+- **ReAct** ([Yao et al., 2022](https://react-lm.github.io/)) — Synergizing reasoning and acting in language models.
+- **Agentic Workflows** — Moving beyond simple QA to autonomous problem solving.
+- **Small Language Models** — Showing how agentic patterns allow smaller models to outperform larger ones on complex tasks.
+
+---
+
+**Previous**: [← Project 2: Neural Archaeology](project2.qmd) | **Next**: [Capstone Project →](../capstone.qmd)
