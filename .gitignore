@@ -27,6 +27,12 @@ lecture1_overview_env/
 p02-macstudio/
 venv_office_p02/
 p02-office/
+Project 2 Neural Archaeology (instructor)/p02-studio/
+Project 2 Neural Archaeology (instructor)/p02-macbook/
+p03-macbook/
+
+# Project 3 Thought Cascade specific venv
+Project 3 Thought Cascade/p03_agentic/
 
 # Lecture 3 Linear Regression specific venv
 Lecture 3 Linear Regression/linear_regression_env/
@@ -116,6 +122,7 @@ kaggle.json
 grades/
 submissions/
 Project 1 KNN Music Recommender (instructor)/
+Project 3 Motion Maestro/
 temp/
 **/logs/**
 
@@ -145,12 +152,8 @@ Lecture 1 Overview/catshop/models/gemma-cat-lora/
 Lecture 1 Overview/models/
 
 # ===== Root-level model artifacts =====
-# Ignore everything in models/ except curated lecture assets images
-models/*
-!models/lecture_assets/
-!models/lecture_assets/*.png
-!models/lecture_assets/*.jpg
-!models/lecture_assets/*.svg
+# Ignore entire models/ directory
+models/
 
 # ===== External subprojects =====
 representation-engineering-main/
@@ -192,3 +195,58 @@ Lecture 9 Ensemble Methods/data/cifar-10-batches-py/data_batch_4
 Lecture 9 Ensemble Methods/data/cifar-10-batches-py/data_batch_5
 Lecture 9 Ensemble Methods/data/cifar-10-batches-py/readme.html
 Lecture 9 Ensemble Methods/data/cifar-10-batches-py/test_batch
+
+# ===== Jupytext synced Python files (auto-generated from .ipynb) =====
+Lecture*/**/*.py
+Project*/**/*.py
+AI_Literacy_Interactive_Notebook.py
+
+# ===== Local jupytext/jupyter config =====
+.jupytext.toml
+jupytext.toml
+jupyter_config.py
+**/*.log
+
+# ===== Instructor-only materials =====
+Project 2 Neural Archaeology (instructor)/
+Project 3 Thought Cascade (Instructor)/
+
+# ===== Draft/backup/copy files =====
+**/*copy*.py
+**/*copy*.ipynb
+**/* copy.ipynb
+**/* copy.py
+**/* (Old).*
+**/*Copy1*
+**/* (1).*
+**/* (1)/
+
+# ===== CIFAR data (downloaded datasets) =====
+**/cifar-10-batches-py/
+
+# ===== Large data files in lecture root directories =====
+Lecture*/creditcard.csv
+Lecture*/*.xlsx
+Lecture*/*.csv
+Lecture*/*.md
+!Lecture*/README.md
+
+# ===== Lecture-specific prompts and assets =====
+Lecture 1 Overview/data/*.txt
+Lecture 1 Overview/lecture_assets/
+
+# ===== Root-level notebooks =====
+AI_Literacy_Interactive_Notebook.ipynb
+NOTEBOOK_GUIDELINES.md
+
+# ===== Instructor zip files =====
+**(instructor).zip
+
+# ===== Versioned/variant notebooks =====
+**/* (v1).ipynb
+**/*-Advanced.ipynb
+
+# ===== Lecture data folders (downloaded datasets) =====
+Lecture 15 CNN/15-CNN/
+Lecture 15 CNN/data/
+Lecture 16 RNN and Recurrent Language Models/data/
